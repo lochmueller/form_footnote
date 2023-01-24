@@ -1,0 +1,28 @@
+imports:
+    - { resource: "./FormElements/Text.yaml" }
+    - { resource: "./FormElements/Password.yaml" }
+    - { resource: "./FormElements/Textarea.yaml" }
+    - { resource: "./FormElements/Email.yaml" }
+    - { resource: "./FormElements/Telephone.yaml" }
+    - { resource: "./FormElements/Url.yaml" }
+    - { resource: "./FormElements/Number.yaml" }
+    - { resource: "./FormElements/Date.yaml" }
+    - { resource: "./FormElements/Checkbox.yaml" }
+    - { resource: "./FormElements/MultiCheckbox.yaml" }
+    - { resource: "./FormElements/MultiSelect.yaml" }
+    - { resource: "./FormElements/RadioButton.yaml" }
+    - { resource: "./FormElements/SingleSelect.yaml" }
+    - { resource: "./FormElements/DatePicker.yaml" }
+    - { resource: "./FormElements/FileUpload.yaml" }
+    - { resource: "./FormElements/ImageUpload.yaml" }
+
+TYPO3:
+    CMS:
+        Form:
+            prototypes:
+                standard:
+                    formElementsDefinition:
+                        Form:
+                            renderingOptions:
+                                partialRootPaths:
+                                    84: 'EXT:form_footnote/Resources/Private/Partials/'

@@ -1,0 +1,5 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:formvh="http://typo3.org/ns/TYPO3/CMS/Form/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:if condition="{element.renderingOptions.footnote}">
+    <a href="#footnote-{footnote:add(note: element.renderingOptions.footnote)}"><sup class="footnote"><footnote:add note="{element.renderingOptions.footnote}" /></sup></a>
+</f:if>
+</html>

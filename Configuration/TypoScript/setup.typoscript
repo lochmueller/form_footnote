@@ -1,0 +1,2 @@
+plugin.tx_form.settings.yamlConfigurations.84 = EXT:form_footnote/Configuration/Yaml/FormSetup.yaml
+module.tx_form.settings.yamlConfigurations.84 = EXT:form_footnote/Configuration/Yaml/FormSetup.yaml

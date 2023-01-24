@@ -1,0 +1,14 @@
+TYPO3:
+  CMS:
+    Form:
+      prototypes:
+        standard:
+          formElementsDefinition:
+            FileUpload:
+              formEditor:
+                editors:
+                  550:
+                    identifier: footnote
+                    templateName: Inspector-TextEditor
+                    label: Footnote
+                    propertyPath: renderingOptions.footnote
