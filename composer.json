@@ -1,5 +1,5 @@
 {
-	"name": "hdnet/form-footnote",
+	"name": "lochmueller/form-footnote",
 	"description" : "Footnotes for EXT:form",
 	"license": "GPL-2.0-or-later",
 	"autoload": {
