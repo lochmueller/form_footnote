@@ -1,6 +1,7 @@
 <?php
 
-$EM_CONF[$_EXTKEY ?? 'form_footnote'] = [
+/** @var string $_EXTKEY */
+$EM_CONF[$_EXTKEY] = [
     'title' => 'Form footnote',
     'description' => 'Footnotes for EXT:form',
     'state' => 'stable',
