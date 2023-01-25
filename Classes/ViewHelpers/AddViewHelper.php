@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace HDNET\FormFootnote\ViewHelpers;
 
 use HDNET\FormFootnote\FootnoteStorage;
@@ -11,7 +13,7 @@ class AddViewHelper extends AbstractViewHelper
 {
     use CompileWithRenderStatic;
 
-    public function initializeArguments()
+    public function initializeArguments(): void
     {
         parent::initializeArguments();
         $this->registerArgument('note', 'string', 'The foot note text', true);

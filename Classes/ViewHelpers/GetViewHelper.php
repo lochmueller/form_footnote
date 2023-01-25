@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace HDNET\FormFootnote\ViewHelpers;
 
 use HDNET\FormFootnote\FootnoteStorage;
