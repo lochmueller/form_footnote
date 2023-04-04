@@ -7,7 +7,7 @@ TYPO3:
             Date:
               formEditor:
                 editors:
-                  550:
+                  560:
                     identifier: footnote
                     templateName: Inspector-TextEditor
                     label: Footnote
